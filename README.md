@@ -13,9 +13,9 @@
 PDAJtīmekļalappuse/
 ├── index.html           # Galvenais HTML fails
 ├── style.css            # Paša izstrādātie stili
-├── dog1.jpg             # Galerijas attēls 1
-├── dog2.jpg             # Galerijas attēls 2
-├── dog3.webp            # Galerijas attēls 3
+├── photo1.jpg             # Galerijas attēls 1
+├── photo2.jpg             # Galerijas attēls 2
+├── photo3.jpg           # Galerijas attēls 3
 ├── favicon.ico          # Mājas lapas ikona
 └── README.md            # Šis fails
 ```
@@ -26,7 +26,7 @@ PDAJtīmekļalappuse/
 
 ### 1. **Header (Galvene)**
 - Mājas lapas nosaukums un navigācijas izvēlne
-- Navigācijas pogas ar якорными saitēm (#id)
+- Navigācijas pogas anchor saitēm (#id)
 - Vienkāršs, tīrs dizains ar melniem tekstiem
 - Responsīvs - pielāgojās dažādiem ekrānu izmēriem
 
@@ -34,25 +34,25 @@ PDAJtīmekļalappuse/
 - Teksta sadaļa ar aprakstu
 - Pelēka fona krāsa (#e9ecef) - atšķirat no pārējām sadaļām
 - Centrēts saturs ar ērtām atstarpēm
-- Maksimāla platuma ограничение - saturs nesniedzas līdz ekrāna malām
+- Maksimāla platuma ierobežojums - saturs nesniedzas līdz ekrāna malām
 
 ### 3. **Prasmes un Intereses (Skills Section)**
-- **4 kolonas** ar dažādām prāsmēm
+- 4 kolonas ar dažādām prāsmēm
 - Katra kolonna satur: ikonu, virsrakstu, aprakstu
 - Bootstrap Flexbox izkārtojums - uz mobilajiem ekrāniem kolonas kļūst par vienu rindu
-- Hover efekts - kolonas "pacel" uz augšu (translateY)
+- Hover efekts - kolonas "pacel" uz augšu
 
 ### 4. **Galerija (Gallery Section)**
-- Trīs attēli no `/images` mapes
+- Trīs attēli
 - Gluda attēlu pārejas animācija (0.3s transition)
 - Hover efekts - attēli pieaug par 5% (scale 1.05)
 - Pelēka fona krāsa
 
 ### 5. **Kājene/Footer**
 - Autortiesību zīme (©) ar gadu
-- Sociālo tīklu ikonas (Facebook, Twitter, Instagram)
+- Sociālo tīklu ikonas (Youtube, Spotify, Instagram)
 - Ikonas ir saitnes uz sociālo tīklu lapām
-- Tumša fona krāsa (#343a40) - labi kontrastē ar baltiem tekstiem
+- Tumša fona krāsa - labi kontrastē ar baltiem tekstiem
 
 ---
 
@@ -67,7 +67,7 @@ PDAJtīmekļalappuse/
 - **Paša izstrādātie stili** (style.css)
 - **Bootstrap 5.3.8** - Responsive Grid sistēma
 - **Bootstrap Icons** - Ikonu bibliotēka
-- **Google Fonts** - Roboto fonts (wght: 400, 500, 700)
+- **Google Fonts** - Dažādi fonti
 
 ### Dinamiskie Elementi
 - Hover efekti (nav-link, skill cards, galerijas attēli)
